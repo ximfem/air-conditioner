@@ -30,11 +30,7 @@ const Copyright: React.FC = () => {
   return (
     <div className="opacity-80 text-xs text-center mt-8">
       <div className="ac-text flex justify-center items-center m-2">
-        {'© '}
-        <a href={pkg.repository.url} target="_blank" rel="noreferrer">
-          极客郎
-        </a>
-       {` ${new Date().getFullYear()}`}
+        {'© 极客郎 ${new Date().getFullYear()}'}
       </div>
       <div className="text-center">
         {socialList.map(item => (
