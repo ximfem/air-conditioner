@@ -7,43 +7,22 @@ const socialList = [
     type: 'github',
     color: 'inherit',
     icon: 'i-mdi-github',
-    label: 'GitHub: YunYouJun',
-    href: 'https://github.com/YunYouJun',
-  },
-  {
-    type: 'telegram',
-    color: '#1da1f2',
-    icon: 'i-mdi-telegram',
-    label: 'Telegram Channel',
-    href: 'https://t.me/elpsycn',
-  },
-  {
-    type: 'weibo',
-    color: '#DB2828',
-    icon: 'i-mdi-sina-weibo',
-    label: '微博：机智的云游君',
-    href: 'http://weibo.com/jizhideyunyoujun',
-  },
-  {
-    type: 'twitter',
-    color: '#1da1f2',
-    icon: 'i-mdi-twitter',
-    label: 'Twitter: YunYouJun',
-    href: 'https://twitter.com/YunYouJun',
+    label: 'GitHub: ximfem',
+    href: 'https://github.com/ximfem',
   },
   {
     type: 'wechat',
     color: '#1AAD19',
     icon: 'i-mdi-wechat',
-    label: '微信公众号：云游君',
-    href: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
+    label: '微信公众号：极客郎',
+    href: '/',
   },
   {
     type: 'blog',
     color: '#6435C9',
     icon: 'i-mdi-earth',
-    label: '博客：yunyoujun.cn',
-    href: 'http://www.yunyoujun.cn',
+    label: '博客：极客郎博客',
+    href: 'https://ximfem.asia',
   },
 ]
 
@@ -53,22 +32,11 @@ const Copyright: React.FC = () => {
       <div className="ac-text flex justify-center items-center m-2">
         {'© '}
         <a href={pkg.repository.url} target="_blank" rel="noreferrer">
-          Yun Air Conditioner
-        </a>
-        <a
-          className="inline-flex"
-          href="https://sponsors.yunyoujun.cn"
-          target="_blank" rel="noreferrer"
-          style={{ color: '#0078e7' }}
-        >
-          <div className="i-mdi-cloud text-sm mx-1" />
-        </a>
-        <a href={pkg.author.url} target="_blank" rel="noreferrer">
-          云游君 @{pkg.author.name}
+          极客郎
         </a>
       </div>
       <p>
-        {`2019 - ${new Date().getFullYear()}`}
+        {`2023 - ${new Date().getFullYear()}`}
       </p>
       <div className="text-center">
         {socialList.map(item => (
