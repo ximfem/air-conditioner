@@ -34,10 +34,8 @@ const Copyright: React.FC = () => {
         <a href={pkg.repository.url} target="_blank" rel="noreferrer">
           极客郎
         </a>
+       {` ${new Date().getFullYear()}`}
       </div>
-      <p>
-        {`2023 - ${new Date().getFullYear()}`}
-      </p>
       <div className="text-center">
         {socialList.map(item => (
           <Tooltip title={item.label} arrow key={item.type}>

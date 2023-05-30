@@ -40,11 +40,7 @@ function Loading() {
   )
 }
 
-/**
- * https://github.com/hannoeru/vite-plugin-pages
- * Must use Suspense
- * @returns
- */
+
 function Routes() {
   return (
     <Suspense fallback={<Loading />}>

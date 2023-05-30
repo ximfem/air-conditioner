@@ -3,7 +3,6 @@ import React from 'react'
 import { Fade } from '../Fade'
 import { AcDisplay } from './AcDisplay'
 import { EnergyLabel } from './EnergyLabel'
-import { EnergySavingLabel } from './EnergySavingLabel'
 import type { AcMode } from '~/types'
 
 import * as pkg from '~/../package.json'
@@ -124,7 +123,6 @@ const AirConditioner: React.FC<{
         <AirOutlet />
         <AcStatus status={props.status} />
         <EnergyLabel titleLength={6} />
-        {import.meta.env.VITE_DISABLE_ADSENSE ? null : <EnergySavingLabel />}
       </AcBorder>
       <Fade in={props.status}>
         <WindEffect />

@@ -5,7 +5,7 @@
 export function GoogleAutoAdsense() {
   return (
     <script
-      data-ad-client="ca-pub-2245427233262012"
+      data-ad-client=""
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     ></script>
